@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+distribution_name: 'Triumphal'
+internet_connection_required: yes
+internet_checker_url: 'http://nmcheck.gnome.org/check_network_status.txt'
+suggested_languages: 
+    - 'en'
+    - 'de' 
+    - 'hr'
+
+minimum_disk_size: 5
+offer_disk_encryption: yes
+additional_software:
+    - package     : 'libreoffice-fresh'
+      default     : no
+      name        : 'LibreOffice'
+      description : 'Office Suite for Documents, Tables, Presentations and more'
+      icon_path   : '/opt/triumphal/os-installer-config/icons/libreoffice-main.png'
